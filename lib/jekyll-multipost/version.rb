@@ -1,7 +1,3 @@
-module Jekyll
-  module PermalinkBuilder
-    extend self
-
-    VERSION = '0.1.0'
-  end
+module JekyllMultipost
+  VERSION = '0.1.0'
 end

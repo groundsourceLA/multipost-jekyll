@@ -4,7 +4,7 @@ require File.expand_path("../lib/jekyll-multipost/version", __FILE__)
 Gem::Specification.new do |s|
     #Metadata
     s.name = "jekyll-multipost"
-    s.version = Jekyll::VERSION
+    s.version = JekyllMultipost::VERSION
     s.authors = ["Josh Paul"]
     s.email = ["jpaul@wearebond.com"]
     s.homepage = ""
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
     s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
     s.require_paths = ['lib']
 
-    
-    
+
+
 end
